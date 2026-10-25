@@ -1,0 +1,19 @@
+{
+  "seed": 0,
+  "n_seeds": 3,
+  "correlation": 0.9,
+  "n_train": 1800,
+  "n_val": 450,
+  "n_test": 900,
+  "epochs": 20,
+  "batch_size": 64,
+  "lr": 0.003,
+  "image_size": 32,
+  "conditions": [
+    "A_baseline",
+    "C_color_aug"
+  ],
+  "aug_perm_p": 1.0,
+  "aug_gray_p": 0.3,
+  "aug_brightness": 0.2
+}
